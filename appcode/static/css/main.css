@@ -1,0 +1,95 @@
+body { font-family: "Open Sans", sans-serif !important; margin: 0; font-size: 14px !important; line-height: 1.5 !important; color: #333; }
+
+.small-margin
+{
+    margin-bottom: 10px;
+}
+
+.large-margin{
+        margin-bottom: 35px;
+}
+
+canvas
+{
+    border: solid 1px #808080;
+}
+
+#canvas-console
+{
+    width: 100%;
+    margin: 20px auto;
+    height: 400px;
+    display: block;
+}
+
+.btn{
+    margin-right: 2px;
+}
+
+.js-span, .jsfeat-span{
+    text-align:center;
+}
+
+.tool-span > button{
+    margin-right: 10px !important;
+}
+
+#text-controls-additional { display: inline-block; vertical-align: top; margin-left: 5px }
+#text-controls-additional button { vertical-align: top; display: block; margin-bottom: 7px; width:150px }
+#drawing-mode-options { margin-top: 5px; padding: 5px; border: 1px dotted #aaa; }
+#text { position: relative; width: 300px; height: 200px; }
+#text-cmd-linethrough { text-decoration: line-through; }
+#text-cmd-underline { text-decoration: underline; }
+#text-cmd-overline { text-decoration: overline; }
+#text-cmd-italic { font-style: italic; }
+#text-cmd-shadow { text-shadow: rgb(100,100,100) 1px 1px 3px; }
+#image-form {
+    margin: 0 0 0 0;
+}
+#color-label, #bg-label, #image-form{
+    display: inline-block;
+}
+#canvas-background{
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+}
+input[type=file] {
+    border: dotted 1px;
+}
+input[type=color] { width: 40px; padding: 0; margin: 0; height: 20px; position: relative; top: 2px;}
+#text-controls { display: inline-block; vertical-align: top; }
+#text-wrapper > textarea { width: 100%; }
+label { display: inline-block !important; margin-right: 2px; }
+
+#jsoneditor {
+    width: 100%;
+    height: 400px;
+    margin: 10px auto;
+}
+
+#editor-row > .span2
+{
+    text-align: right;
+    padding-top: 15px;
+}
+
+#editor-row
+{
+    margin-top:25px;
+}
+footer > .span8
+{
+    text-align:center;
+}
+
+.title-row{
+   margin-top:15px
+   margin-botton:50px
+}
+
+.algo{
+    border: 1px black solid;
+    padding: 5px 5px 25px 5px;
+    margin: 5px 0 0 0;
+}

@@ -1,0 +1,22 @@
+	p {
+	  font-size:15px;
+	  margin-top: 7px;
+	  margin-left: 25px;
+      line-height: 21px;
+	}
+	footer > p {
+	  margin-top: 5px;
+	  margin-left: 5px;
+	}
+	li {
+	  margin-top: 15px;
+	  margin-left: 25px;
+	}
+	.row {
+	  margin-top: 9px;
+	  margin-bottom: 12px;
+	}
+	.brand {
+	padding-right:0px !important;
+	font-size: 63px;
+	}
