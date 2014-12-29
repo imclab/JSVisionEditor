@@ -2,7 +2,7 @@ JSVisionEditor
 ================
 
 In active development! Documentation & Examples coming soon!     
-======
+
 
 Demo: https://jsvisioneditor.appspot.com   
 
