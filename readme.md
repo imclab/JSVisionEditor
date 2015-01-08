@@ -1,4 +1,4 @@
-JSVisionEditor
+Interactive Vision Editor in Javascript
 ================
 
 In active development! Documentation & Examples coming soon!     
