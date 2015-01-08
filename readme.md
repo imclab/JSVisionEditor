@@ -4,7 +4,7 @@ JSVisionEditor
 In active development! Documentation & Examples coming soon!     
 
 
-Demo: https://jsvisioneditor.appspot.com   
+Demo: http://vision.akshaybhat.com
 
 This is an modified extension of FabricJS kitchen sink demo.     
 
