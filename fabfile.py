@@ -12,7 +12,7 @@ def init_app():
 
 def test():
     init_app()
-    local("dev_appserver.py .")
+    local("dev_appserver.py --port 10650 --admin_port 10640 .")
 
 def deploy():
     init_app()

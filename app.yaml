@@ -34,7 +34,7 @@ handlers:
 
 - url: .*
   script: main.app
-  secure: always
+#  secure: always
 
 libraries:
 - name: webapp2

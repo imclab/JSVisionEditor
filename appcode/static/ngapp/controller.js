@@ -687,10 +687,19 @@ $scope.segmentation_pf = function() {
                         'max_y':i%w
                         }
                 }
-                    data[4 * i + 0] = segment[value].r;
-                    data[4 * i + 1] = segment[value].g;
-                    data[4 * i + 2] = segment[value].b;
-                    data[4 * i + 3] =  255;
+                if (value ==0){
+                    data[4 * i + 0] = results.rgbData[4 * i + 0];
+                    data[4 * i + 1] = results.rgbData[4 * i + 1];
+                    data[4 * i + 2] = results.rgbData[4 * i + 2];
+                    data[4 * i + 3] = 255;
+
+                }
+                else{
+                    data[4 * i + 0] = 0;
+                    data[4 * i + 1] = 0;
+                    data[4 * i + 2] = 0;
+                    data[4 * i + 3] = 0;
+                }
                     segment[value].max_pixel = i;
 //                    x,y = Math.floor(i/w)
             }
